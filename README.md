@@ -1,1 +1,249 @@
 # nutricion-saludable
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alimentación Saludable</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f5fc;
+  color: #393344;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #b99bdc, #e3c9f4);
+  color: white;
+  text-align: center;
+  padding: 55px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 17px;
+}
+
+nav {
+  background: #ffffff;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #7955a1;
+  text-decoration: none;
+  margin: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin: 22px 0;
+  border-radius: 18px;
+  box-shadow: 0 3px 12px #ded5e8;
+}
+
+h2 {
+  color: #946ab9;
+}
+
+h3 {
+  color: #8060a1;
+}
+
+.grupos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 15px;
+}
+
+.grupo {
+  background: #f4eefb;
+  padding: 15px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.grupo img {
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.consejo {
+  background: #e9f3e7;
+  padding: 18px;
+  border-radius: 14px;
+  margin-top: 15px;
+}
+
+footer {
+  background: #b99bdc;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Alimentación Saludable</h1>
+  <p>Pequeños hábitos, grandes beneficios para tu salud.</p>
+</header>
+
+<nav>
+  <a href="#importancia">Importancia</a>
+  <a href="#alimentos">Alimentos</a>
+  <a href="#habitos">Hábitos</a>
+  <a href="#conclusion">Conclusión</a>
+</nav>
+
+<main>
+
+<section id="importancia">
+  <h2>¿Qué es una alimentación saludable?</h2>
+  <p>
+  Es una forma de alimentarse que aporta los nutrientes y
+  la energía que el organismo necesita para funcionar
+  correctamente. Incluye alimentos variados y equilibrados.
+  </p>
+
+  <h3>¿Por qué es importante?</h3>
+  <ul>
+    <li>Aporta energía para las actividades diarias.</li>
+    <li>Favorece el crecimiento y desarrollo.</li>
+    <li>Mejora la concentración y el funcionamiento cerebral.</li>
+    <li>Fortalece el sistema inmunológico.</li>
+    <li>Contribuye a la salud de los huesos y músculos.</li>
+    <li>Ayuda a prevenir enfermedades.</li>
+  </ul>
+</section>
+
+<section id="alimentos">
+  <h2>Los principales grupos de alimentos</h2>
+
+  <div class="grupos">
+
+    <div class="grupo">
+      <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=500"
+      alt="Frutas">
+      <h3>Frutas y verduras</h3>
+      <p>Aportan vitaminas, minerales, fibra y antioxidantes.</p>
+    </div>
+
+    <div class="grupo">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500"
+      alt="Cereales y pan">
+      <h3>Cereales</h3>
+      <p>Como arroz, avena, pan y pastas. Proporcionan energía.</p>
+    </div>
+
+    <div class="grupo">
+      <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500"
+      alt="Alimentos con proteínas">
+      <h3>Proteínas</h3>
+      <p>Se encuentran en carnes, huevos, pescado y legumbres.</p>
+    </div>
+
+    <div class="grupo">
+      <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=500"
+      alt="Productos lácteos">
+      <h3>Lácteos</h3>
+      <p>Aportan calcio y proteínas para los huesos y dientes.</p>
+    </div>
+
+    <div class="grupo">
+      <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?w=500"
+      alt="Alimentos saludables">
+      <h3>Grasas saludables</h3>
+      <p>Presentes en la palta, los frutos secos y el aceite de oliva.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="habitos">
+  <h2>Hábitos para una vida saludable</h2>
+
+  <ol>
+    <li>Tomar suficiente agua durante el día.</li>
+    <li>Consumir frutas y verduras variadas.</li>
+    <li>Mantener una alimentación variada.</li>
+    <li>Realizar actividad física regularmente.</li>
+    <li>Descansar y dormir bien.</li>
+    <li>Disfrutar de los alimentos sin prohibiciones innecesarias.</li>
+  </ol>
+
+  <div class="consejo">
+    <h3>¡Un consejo importante!</h3>
+    <p>
+    No se trata de comer menos ni de prohibirse alimentos,
+    sino de aprender a alimentarse de manera variada,
+    equilibrada y suficiente.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>¿Qué pasa si no nos alimentamos bien?</h2>
+  <p>
+  Una alimentación insuficiente o poco variada puede provocar
+  cansancio, dificultades de concentración y falta de nutrientes.
+  También puede afectar el crecimiento y la salud general.
+  </p>
+</section>
+
+<section id="conclusion">
+  <h2>Conclusión</h2>
+  <p>
+  Tener una alimentación saludable es fundamental para
+  nuestra calidad de vida. Especialmente durante la
+  adolescencia, es importante incorporar buenos hábitos,
+  porque el cuerpo y el cerebro todavía están en desarrollo.
+  Cuidar nuestra alimentación también es una forma de
+  cuidar nuestra salud y bienestar.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>Alimentación saludable | Educación y bienestar</p>
+  <p>Aprender a cuidarnos comienza con pequeños hábitos.</p>
+</footer>
+
+</body>
+</html>
